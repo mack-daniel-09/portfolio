@@ -117,7 +117,7 @@ export default function Home() {
             {experience.map((job) => (
               <li key={job.company} className="relative">
                 <span
-                  className="absolute -left-[41px] top-1.5 h-4 w-4 rounded-full border-4 border-bg bg-accent-strong"
+                  className="absolute -left-10.25 top-1.5 h-4 w-4 rounded-full border-4 border-bg bg-accent-strong"
                   aria-hidden="true"
                 />
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
